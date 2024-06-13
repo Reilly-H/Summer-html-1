@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reilly's Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to Reilly's Pizza</h1>
+    <!-- This is the navagation of the webpage listing out links to get around the page like a real shop-->
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section id="menu">
+    <h2>Our Menu</h2>
+    <!-- This shows our main menu and images for both our pizzas allowing interaction like a online shop-->
+    <div class="pizza-menu">
+        <div class="pizza-item">
+            <img src="./img/Pizza.jpg" alt="Pepperoni Pizza">
+            <h3>Medium Pepperoni Pizza</h3>
+            <p>Classic pizza topped with pepperoni slices</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pizza-item">
+            <img src="./img/Pizza2.jpg" alt="Vegetarian Pizza">
+            <h3>Meduim Vegetarian Pizza</h3>
+            <p>Loaded with fresh vegetables</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+    <!-- This section displays our ordering area further down the page aloowing for you to select what youd like -->
+<section id="order">
+    <h2>Place Your Order</h2>
+    <form>
+        <label for="pizza-type">Choose Pizza:</label>
+        <select id="pizza-type" name="pizza-type">
+            <option value="pepperoni">Pepperoni Pizza</option>
+            <option value="vegetarian">Vegetarian Pizza</option>
+            <!-- Add more options here -->
+        </select>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+        <button type="submit">Order Now</button>
+    </form>
+</section>
+    <!-- This section is just a little extra to the page for fun and nice looks -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Address: 123 HTML Street, CSSville</p>
+    <p>Phone: 555-123-4567</p>
+    <p>Email: info@Reilly's Pizza.com</p>
+</section>
+</main>
+<footer>
+    <p>&copy; 2024 Reilly's Pizza. All rights reserved.</p>
+</footer>
+</body>
+</html>

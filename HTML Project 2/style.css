@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* This changes the background color and allignment at the top header */
+header {
+    background-color: #8338ec;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pizza-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pizza-item {
+    margin: 20px;
+}
+/* This changes the Two Pizza images size and shape to fit more with the page */
+.pizza-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label, select, input, button {
+    margin: 10px;
+}
+/* This changes the background color and allignment at the bottom footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
